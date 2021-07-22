@@ -2,9 +2,9 @@ CREATE DATABASE mlbPlayerData;
 use mlbPlayerData;
 
 CREATE TABLE IF NOT EXISTS mlbPlayers (
-    `plName` VARCHAR(19) CHARACTER SET utf8,
-    `plTeam` VARCHAR(23) CHARACTER SET utf8,
-    `plPosition` VARCHAR(19) CHARACTER SET utf8,
+    `plName` VARCHAR(25) CHARACTER SET utf8,
+    `plTeam` VARCHAR(25) CHARACTER SET utf8,
+    `plPosition` VARCHAR(25) CHARACTER SET utf8,
     `plHeight` INT,
     `Weight` INT,
     `Age` NUMERIC(4, 2)
