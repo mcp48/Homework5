@@ -7,12 +7,12 @@ CREATE TABLE IF NOT EXISTS mlbPlayers (
     `plTeam` VARCHAR(25) CHARACTER SET utf8,
     `plPosition` VARCHAR(25) CHARACTER SET utf8,
     `plHeight` INT,
-    `Weight` INT,
-    `Age` NUMERIC(4, 2),
+    `plWeight` INT,
+    `plAge` NUMERIC(4, 2),
     PRIMARY KEY (`id`)
 
 );
-INSERT INTO mlbPlayers (plName, plTeam, plPosition, plHeight, Weight, Age) VALUES
+INSERT INTO mlbPlayers (plName, plTeam, plPosition, plHeight, plWeight, plAge) VALUES
     ('Rene Rivera','Seattle Mariners','Catcher',70,190,23.58),
     ('Kenji Johjima','Seattle Mariners','Catcher',72,200,30.73),
     ('Richie Sexson','Seattle Mariners','First Baseman',80,237,32.17),
